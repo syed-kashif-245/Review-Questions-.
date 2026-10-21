@@ -1,0 +1,14 @@
+Record: {'CourseID': 'C104', 'CourseName': 'Data Analytics', 'CourseType': 'Online', 'BaseFee': 'abc', 'OfferDiscount': '10', 'OfferEndDate': '2026-12-31'}
+Reason: Base fee must be numeric
+
+Record: {'CourseID': 'C106', 'CourseName': 'Web Development', 'CourseType': 'Hybrid', 'BaseFee': '25000', 'OfferDiscount': '5', 'OfferEndDate': '2026-12-31'}
+Reason: Invalid course type
+
+Record: {'CourseID': 'C101', 'CourseName': 'Advanced Python', 'CourseType': 'Online', 'BaseFee': '12000', 'OfferDiscount': '10', 'OfferEndDate': '2026-12-31'}
+Reason: the course id C101 is duplicate
+
+Record: {'CourseID': 'C107', 'CourseName': 'Java Programming', 'CourseType': 'Classroom', 'BaseFee': '-5000', 'OfferDiscount': '5', 'OfferEndDate': '2026-12-31'}
+Reason: Base fee must be greater than zero
+
+Record: {'CourseID': 'C108', 'CourseName': 'Web API Development', 'CourseType': 'Online', 'BaseFee': '25000', 'OfferDiscount': '10', 'OfferEndDate': 'invalid-date'}
+Reason: Invalid offer end date
